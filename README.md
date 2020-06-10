@@ -28,9 +28,9 @@ TP-YachtSharePrestige/
   │   ├── page/  
   │   │   └── home.php  
   │   └── partials/  
-  │       ├── footer.php  
-  │       ├── header.php  
-  │       └── main.php  
+  │    │   ├── footer.php  
+  │    │   ├── header.php  
+  │    │   └── main.php  
   │     
   │     
   ├── index.php  
