@@ -1,0 +1,251 @@
+/* -------------------------------- 
+
+File#: _2_flexi-header
+Title: Flexi Header
+Descr: Customizable header template
+Usage: codyhouse.co/license
+
+-------------------------------- */
+/* Variables*/
+  // colors
+    $colorWhite : #fff;
+    $yellow : #ffaa00;
+    $dark : #000;
+    $green : #4a0;
+    $blue : hsl(212, 53%, 53%);
+    $colorBlue :hsl(212, 91%, 25%);
+
+
+
+body{
+  font-family:  'Trebuchet MS', sans-serif;
+}
+
+/*----- Landing Page -----*/
+.f-header{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  
+  nav{
+    background-color: rgba($color: $colorWhite, $alpha: 0.6);
+    padding: 10px;
+  }
+
+}
+
+.landing-content{
+  background-image: linear-gradient(transparent, #000), url("../img/Boat-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 99%;
+
+  width: 100%;
+
+  .landing-content_title h1{
+    color: $colorWhite
+  }
+  .landing-content_subtitle{
+    color: $colorWhite;
+    margin: 50px;
+
+  }
+
+}
+/*Bouton Jaune */
+.btn-color{
+  background-color: $yellow;
+  border: solid 1px $dark;
+  border-radius: 0;
+  padding:20px;
+
+  box-shadow: 4px 4px 2px black;
+  &:hover{
+    transition: all .2s ease-in-out;
+    transform :scale(1.1);
+  }
+}
+/*------ Main Page ------*/
+
+main{
+  .border-container{
+    margin: 100px;
+  }
+  .container{
+    padding: 10px;
+  }
+  .main-img{
+    img{
+      width: 100%;
+      z-index: -1;
+    }
+  }
+  .nav-container{
+    margin-top: -150px;
+    border: solid 1px $blue;
+    .col-right{
+      .pub1{
+        width: 80%;
+        height: 70%;
+        margin-top: 20px;
+        border: solid 2px $dark;
+      }
+      .pub2{
+        width: 80%;
+        height: 27%;
+        margin-top: 20px;
+        border: solid 2px $dark;
+      }
+      width: 5px;
+      height: auto;
+    }
+  }
+  .form-primary{
+    border: solid 2px $dark;
+    background-color: $colorBlue;
+    padding: 10px;
+  }
+
+  .form-secondary{
+    border: solid 2px $dark;
+    padding: 10px;
+    label.filtre{
+      display: inline-flex;
+      width: 135px;
+      margin: 15px;
+      color: $yellow;
+      font-weight: bold;
+      font-size: 20pt;
+    }
+
+    
+  }
+  article {
+      display: inline-flex;
+      a{
+        text-decoration: none;
+      }
+      .cards{
+        // border: solid 2px black;
+        width: 300px;
+        margin: 20px;
+        figure {
+          .image-card{
+            background-image: url("../img/Yacht-card.jpg");
+            background-size: cover;
+            width: 100%;
+            height: 150px; 
+          }
+          .items-name{
+            flex-wrap: nowrap;
+            position: relative;
+            top: 85%;
+            background-color: rgba($color: $colorBlue, $alpha: 0.6);
+            color: $colorWhite;
+          }
+          figcaption{
+            margin: 0;
+             border: solid 3px $dark;
+             display: block;
+            .title{
+            color: $green;
+            float: left;
+            }
+            .card-text{
+
+              margin: 10px;
+            }
+            .btn-card{
+              background-color: $blue;
+              color: $colorWhite;
+              display: inline-flex;
+              align-items: flex-end;
+              padding: 5px;
+            }
+          }
+        }
+      }
+
+  }      
+  .carousel{
+        border: solid 1px $dark;
+
+        .carousel__item{
+          justify-content: center;
+          display: flex;
+          margin: 0;
+          padding: 0;
+          .cards{
+            // border: solid 2px black;
+            width: 300px;
+            margin: 20px;
+
+            figure {
+              .image-card{
+                background-image: url("../img/Yacht-card.jpg");
+                background-size: cover;
+                width: 100%;
+                height: 150px; 
+              }
+              .items-name{
+                flex-wrap: nowrap;
+                position: relative;
+                top: 85%;
+                background-color: rgba($color: $colorBlue, $alpha: 0.6);
+                color: $colorWhite;
+              }
+              figcaption{
+                margin: 0;
+                 border: solid 3px $dark;
+                 display: block;
+                .title{
+                color: $green;
+                float: left;
+                }
+                .card-text{
+    
+                  margin: 10px;
+                }
+                .btn-card{
+                  background-color: $blue;
+                  color: $colorWhite;
+                  display: inline-flex;
+                  align-items: flex-end;
+                  padding: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+
+
+  .container-product{
+    border: solid 2px $dark;
+    background-color: $colorWhite;
+    h3{
+      padding: 20px;
+      color: $blue;
+    }
+    .parent{
+      hr{
+        border: solid 4px $blue;
+      }
+      .po{
+        font-weight: bold;
+        padding: 10px;
+      }
+    }
+    .text-product{
+      padding: 25px;
+    }
+
+  }
+
+}
+
+
+
+
+
+

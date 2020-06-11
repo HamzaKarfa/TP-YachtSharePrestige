@@ -294,3 +294,4 @@ Math.easeOutElastic = function (t, b, c, d) {
   };
   window.addEventListener('mousedown', detectClick);
 }());
+

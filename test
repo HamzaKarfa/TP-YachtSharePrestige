@@ -1,0 +1,3 @@
+Warning: include(partials/main.php): failed to open stream: No such file or directory in C:\laragon\www\TP-YachtSharePrestige\src\page\home.php on line 6
+
+Warning: include(): Failed opening 'partials/main.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\TP-YachtSharePrestige\src\page\home.php on line 6

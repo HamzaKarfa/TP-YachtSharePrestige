@@ -1,4 +1,9 @@
 <?php
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<hr>';
     function dumpArray(array $nested_arrays): void {
             foreach ($nested_arrays as $key => $value) {
                 if (gettype($value) !== 'array') {
