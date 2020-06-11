@@ -7,7 +7,7 @@ TP-YachtSharePrestige/
   │   ├── css/  
   │   │   │── components/  
   │   │   │── custom-style/  
-  │   │   ├── _custom-style.scss  
+  │   │   │   └── _custom-style.scss  
   │   │   ├── style.scss  
   │   │   ├── style-fallback.css  
   │   │   └── style.css  
@@ -20,17 +20,18 @@ TP-YachtSharePrestige/
   │   
   │   
   ├── controler/  
-  │   ├── autoloader.php  
   │   └── debug-info.php  
   │   
   │   
   ├── src/  
   │   ├── page/  
-  │   │   └── home.php  
+  │   │   ├── landing-page.php  
+  │   │   ├── main.php  
+  │   │   └── product-page.php  
   │   └── partials/  
   │    │   ├── footer.php  
   │    │   ├── header.php  
-  │    │   └── main.php  
+  │    │   └── home.php  
   │     
   │     
   ├── index.php  
