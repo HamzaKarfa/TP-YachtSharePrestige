@@ -5,7 +5,7 @@ TP-YachtSharePrestige/
   │    
   ├── assets/  
   │   ├── css/  
-  │   │   │── components/  
+  │   │   │── base/  
   │   │   │── custom-style/  
   │   │   │   └── _custom-style.scss  
   │   │   ├── style.scss  
