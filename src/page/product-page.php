@@ -68,7 +68,6 @@
             </div>
             <div class="col-2 col-right">
                     <div class="col pub1"></div>
-                    <div class="col pub2"></div>
             </div>
         </div>
 
